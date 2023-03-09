@@ -1,0 +1,35 @@
+<form>
+  <label for="firstName">First Name:</label>
+  <input type="text" id="firstName" name="firstName" required pattern="[A-Za-z]+" />
+  <br>
+  <br>
+  <label for="lastName">Last Name:</label>
+  <input type="text" id="lastName" name="lastName" required pattern="[A-Za-z]+" />
+  <br>
+  <br>
+  <label for="nickName">Nick Name:</label>
+  <input type="text" id="nickName" name="nickName" required pattern="[A-Za-z]+" />
+  <br>
+  <br>
+  <label for="password">Password:</label>
+  <input type="password" id="password" name="password" required />
+  <br>
+  <br>
+  <label for="mobile">Mobile:</label>
+  <input type="tel" id="mobile" name="mobile" required pattern="[0-9]{10}" />
+  <br>
+  <br>
+  <label for="gender">Gender:</label>
+  <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female" required>
+  <label for="female">Female</label>
+  <br>
+  <br>
+  <label for="address">Address:</label>
+  <textarea id="address" name="address" rows="4" cols="30" required></textarea>
+  <br>
+  <br>
+  <input type="submit" value="Submit">
+   <input type="Reset" value="Reset">
+</form>
